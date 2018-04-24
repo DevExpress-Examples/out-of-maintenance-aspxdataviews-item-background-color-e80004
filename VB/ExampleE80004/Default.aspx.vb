@@ -1,5 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Data
 Imports System.Configuration
 Imports System.Collections
@@ -12,20 +11,17 @@ Imports System.Web.UI.HtmlControls
 Imports System.Drawing
 
 Partial Public Class _Default
-	Inherits System.Web.UI.Page
-	Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+    Inherits System.Web.UI.Page
 
-	End Sub
-	Public Function GetColor(ByVal dataItem As Object) As Color
-		Dim row As DataRowView = TryCast(dataItem, DataRowView)
-		If row IsNot Nothing Then
-			Dim qty As Short = CShort(Fix(row("qty")))
-			If (qty > 20) Then
-				Return Color.Yellow
-			Else
-				Return Color.Empty
-			End If
-		End If
-		Return Color.Empty
-	End Function
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+
+    End Sub
+    Public Function GetColor(ByVal dataItem As Object) As Color
+        Dim row As DataRowView = TryCast(dataItem, DataRowView)
+        If row IsNot Nothing Then
+            Dim qty As Short = CShort(Math.Truncate(row("qty")))
+            Return If(qty > 20, Color.Yellow, Color.Empty)
+        End If
+        Return Color.Empty
+    End Function
 End Class
