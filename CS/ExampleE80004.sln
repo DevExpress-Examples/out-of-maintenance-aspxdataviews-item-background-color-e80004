@@ -1,7 +1,10 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "W:\...\ExampleE80004\", "ExampleE80004\", "{02C86D6A-D4A9-46A6-8CC1-9818F49749CB}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ExampleE80004", "ExampleE80004\", "{02C86D6A-D4A9-46A6-8CC1-9818F49749CB}"
 	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/ExampleE80004"
 		Debug.AspNetCompiler.PhysicalPath = "ExampleE80004\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ExampleE80004\"
@@ -17,18 +20,21 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "W:\...\ExampleE80004\", "Ex
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "2709"
-	TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-EndProjectSection
+		SlnRelativePath = "ExampleE80004\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|.NET = Debug|.NET
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{02C86D6A-D4A9-46A6-8CC1-9818F49749CB}.Debug|.NET.ActiveCfg = Debug|.NET
-		{02C86D6A-D4A9-46A6-8CC1-9818F49749CB}.Debug|.NET.Build.0 = Debug|.NET
+		{02C86D6A-D4A9-46A6-8CC1-9818F49749CB}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{02C86D6A-D4A9-46A6-8CC1-9818F49749CB}.Debug|.NET.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B41A466-F08E-4DB4-A7C8-C85B607B476E}
 	EndGlobalSection
 EndGlobal
