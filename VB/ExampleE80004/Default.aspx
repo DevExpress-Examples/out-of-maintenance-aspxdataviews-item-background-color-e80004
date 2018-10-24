@@ -1,9 +1,9 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="true" CodeFile="Default.aspx.vb" Inherits="_Default" %>
 
-<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxPanel"
+<%@ Register Assembly="DevExpress.Web.v17.2" Namespace="DevExpress.Web"
     TagPrefix="dxp" %>
 
-<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxDataView"
+<%@ Register Assembly="DevExpress.Web.v17.2" Namespace="DevExpress.Web"
     TagPrefix="dxdv" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
