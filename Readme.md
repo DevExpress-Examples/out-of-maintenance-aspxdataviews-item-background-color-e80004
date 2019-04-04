@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [Default.aspx](./CS/ExampleE80004/Default.aspx) (VB: [Default.aspx](./VB/ExampleE80004/Default.aspx))
-* [Default.aspx.cs](./CS/ExampleE80004/Default.aspx.cs) (VB: [Default.aspx](./VB/ExampleE80004/Default.aspx))
+* [Default.aspx.cs](./CS/ExampleE80004/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/ExampleE80004/Default.aspx.vb))
 <!-- default file list end -->
 # ASPxDataView's item background color
 
